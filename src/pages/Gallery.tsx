@@ -53,11 +53,14 @@ export default function Gallery() {
 
   return (
     <div>
-      <div className="mb-8 text-center">
-        <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent mb-2">
+      <div className="mb-8 text-center relative">
+        <div className="absolute -top-8 left-1/2 -translate-x-1/2 w-24 h-24 opacity-30 animate-bounce">
+          <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+        </div>
+        <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent mb-2 relative z-10">
           Милая галерея
         </h2>
-        <p className="text-gray-600">Самые красивые моменты от нашего сообщества ✨</p>
+        <p className="text-gray-600 relative z-10">Самые красивые моменты от нашего сообщества ✨</p>
       </div>
 
       <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
@@ -84,7 +87,10 @@ export default function Gallery() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 relative">
+                <div className="absolute -right-2 -bottom-2 w-8 h-8 opacity-40">
+                  <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+                </div>
                 <button
                   onClick={() => handleReaction(post.id, 'like')}
                   className={`flex items-center gap-1 px-3 py-1.5 rounded-full transition-all duration-300 ${

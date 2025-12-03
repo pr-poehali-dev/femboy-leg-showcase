@@ -29,8 +29,15 @@ export default function Profile() {
 
   return (
     <div className="max-w-5xl mx-auto">
-      <Card className="border-2 border-pink-100 bg-white/80 backdrop-blur overflow-hidden mb-6 animate-fade-in">
-        <div className="h-32 bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200" />
+      <Card className="border-2 border-pink-100 bg-white/80 backdrop-blur overflow-hidden mb-6 animate-fade-in relative">
+        <div className="absolute top-4 right-4 w-16 h-16 opacity-40 animate-bounce z-10">
+          <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+        </div>
+        <div className="h-32 bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200 relative">
+          <div className="absolute inset-0 flex items-center justify-center opacity-10">
+            <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-32 h-32 object-contain" />
+          </div>
+        </div>
         
         <div className="px-8 pb-8">
           <div className="flex flex-col sm:flex-row gap-6 -mt-16 mb-6">
@@ -73,8 +80,11 @@ export default function Profile() {
         </div>
       </Card>
 
-      <Card className="border-2 border-pink-100 bg-white/80 backdrop-blur p-6 mb-6 animate-fade-in">
-        <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+      <Card className="border-2 border-pink-100 bg-white/80 backdrop-blur p-6 mb-6 animate-fade-in relative">
+        <div className="absolute bottom-4 left-4 w-12 h-12 opacity-20">
+          <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+        </div>
+        <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent relative z-10">
           Достижения
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -93,8 +103,11 @@ export default function Profile() {
         </div>
       </Card>
 
-      <Card className="border-2 border-pink-100 bg-white/80 backdrop-blur p-6 animate-fade-in">
-        <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+      <Card className="border-2 border-pink-100 bg-white/80 backdrop-blur p-6 animate-fade-in relative">
+        <div className="absolute top-4 right-4 w-14 h-14 opacity-25 animate-pulse">
+          <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+        </div>
+        <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent relative z-10">
           Мои фото
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">

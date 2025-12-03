@@ -64,16 +64,22 @@ export default function Feed() {
 
   return (
     <div className="max-w-2xl mx-auto">
-      <div className="mb-8 text-center">
-        <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent mb-2">
+      <div className="mb-8 text-center relative">
+        <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-20 h-20 opacity-30 animate-pulse">
+          <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+        </div>
+        <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent mb-2 relative z-10">
           Лента новостей
         </h2>
-        <p className="text-gray-600">Последние обновления от друзей 💫</p>
+        <p className="text-gray-600 relative z-10">Последние обновления от друзей 💫</p>
       </div>
 
       <div className="space-y-6">
         {posts.map((post) => (
-          <Card key={post.id} className="overflow-hidden border-2 border-pink-100 hover:border-purple-200 transition-all duration-300 hover:shadow-xl bg-white/80 backdrop-blur animate-fade-in">
+          <Card key={post.id} className="overflow-hidden border-2 border-pink-100 hover:border-purple-200 transition-all duration-300 hover:shadow-xl bg-white/80 backdrop-blur animate-fade-in relative">
+            <div className="absolute top-2 right-2 w-12 h-12 opacity-20">
+              <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+            </div>
             <div className="p-6">
               <div className="flex items-center gap-3 mb-4">
                 <Avatar className="w-12 h-12 border-2 border-pink-200">
