@@ -14,12 +14,12 @@ interface Post {
 }
 
 const mockPosts: Post[] = [
-  { id: 1, image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400', author: 'Мия', avatar: '💕', likes: 142, stars: 89, hearts: 234 },
-  { id: 2, image: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=400', author: 'Юки', avatar: '🌸', likes: 298, stars: 156, hearts: 421 },
-  { id: 3, image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=400', author: 'Рин', avatar: '🎀', likes: 187, stars: 92, hearts: 312 },
-  { id: 4, image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=400', author: 'Сакура', avatar: '✨', likes: 421, stars: 234, hearts: 567 },
-  { id: 5, image: 'https://images.unsplash.com/photo-1485231183945-fffde7cc051e?w=400', author: 'Айри', avatar: '🦋', likes: 356, stars: 189, hearts: 478 },
-  { id: 6, image: 'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=400', author: 'Нана', avatar: '🌺', likes: 267, stars: 145, hearts: 389 },
+  { id: 1, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/429f2dfc-23b4-4444-af5c-70232c5d1d81.jpg', author: 'Мия', avatar: '💕', likes: 142, stars: 89, hearts: 234 },
+  { id: 2, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c6d67403-414f-435b-a995-49e9308ec532.jpg', author: 'Юки', avatar: '🌸', likes: 298, stars: 156, hearts: 421 },
+  { id: 3, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/bc5cabce-90e7-4953-978f-828b98b9a037.jpg', author: 'Рин', avatar: '🎀', likes: 187, stars: 92, hearts: 312 },
+  { id: 4, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/429f2dfc-23b4-4444-af5c-70232c5d1d81.jpg', author: 'Сакура', avatar: '✨', likes: 421, stars: 234, hearts: 567 },
+  { id: 5, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c6d67403-414f-435b-a995-49e9308ec532.jpg', author: 'Айри', avatar: '🦋', likes: 356, stars: 189, hearts: 478 },
+  { id: 6, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/bc5cabce-90e7-4953-978f-828b98b9a037.jpg', author: 'Нана', avatar: '🌺', likes: 267, stars: 145, hearts: 389 },
 ];
 
 export default function Gallery() {

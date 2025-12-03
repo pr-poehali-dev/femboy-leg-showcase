@@ -19,12 +19,12 @@ export default function Profile() {
   ];
 
   const recentPhotos = [
-    'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=300',
-    'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=300',
-    'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=300',
-    'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=300',
-    'https://images.unsplash.com/photo-1485231183945-fffde7cc051e?w=300',
-    'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=300',
+    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/429f2dfc-23b4-4444-af5c-70232c5d1d81.jpg',
+    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c6d67403-414f-435b-a995-49e9308ec532.jpg',
+    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/bc5cabce-90e7-4953-978f-828b98b9a037.jpg',
+    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/429f2dfc-23b4-4444-af5c-70232c5d1d81.jpg',
+    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c6d67403-414f-435b-a995-49e9308ec532.jpg',
+    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/bc5cabce-90e7-4953-978f-828b98b9a037.jpg',
   ];
 
   return (
