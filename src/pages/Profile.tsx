@@ -19,23 +19,23 @@ export default function Profile() {
   ];
 
   const recentPhotos = [
+    'https://cdn.poehali.dev/files/405a0aaa-d2f9-47d5-9f66-b9577ea028b0.jpg',
+    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/f6e92692-65bd-4031-8d7b-749a47faac2b.jpg',
+    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/9c71bc08-a103-4e54-8f3a-32d132a9d1c9.jpg',
+    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c39a619c-bc59-4aaa-aaf2-6bce9637cba1.jpg',
+    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/fef39c6b-a80a-484d-8b86-2a26235c94f5.jpg',
     'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/429f2dfc-23b4-4444-af5c-70232c5d1d81.jpg',
-    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c6d67403-414f-435b-a995-49e9308ec532.jpg',
-    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/bc5cabce-90e7-4953-978f-828b98b9a037.jpg',
-    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/429f2dfc-23b4-4444-af5c-70232c5d1d81.jpg',
-    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c6d67403-414f-435b-a995-49e9308ec532.jpg',
-    'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/bc5cabce-90e7-4953-978f-828b98b9a037.jpg',
   ];
 
   return (
     <div className="max-w-5xl mx-auto">
       <Card className="border-2 border-pink-100 bg-white/80 backdrop-blur overflow-hidden mb-6 animate-fade-in relative">
         <div className="absolute top-4 right-4 w-16 h-16 opacity-40 animate-bounce z-10">
-          <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+          <img src="https://i.pinimg.com/736x/98/e3/bf/98e3bf818cf6e5f5f5f8bbb7205d372a.jpg" alt="" className="w-full h-full object-contain" />
         </div>
         <div className="h-32 bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200 relative">
           <div className="absolute inset-0 flex items-center justify-center opacity-10">
-            <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-32 h-32 object-contain" />
+            <img src="https://i.pinimg.com/736x/98/e3/bf/98e3bf818cf6e5f5f5f8bbb7205d372a.jpg" alt="" className="w-32 h-32 object-contain" />
           </div>
         </div>
         
@@ -82,7 +82,7 @@ export default function Profile() {
 
       <Card className="border-2 border-pink-100 bg-white/80 backdrop-blur p-6 mb-6 animate-fade-in relative">
         <div className="absolute bottom-4 left-4 w-12 h-12 opacity-20">
-          <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+          <img src="https://i.pinimg.com/736x/98/e3/bf/98e3bf818cf6e5f5f5f8bbb7205d372a.jpg" alt="" className="w-full h-full object-contain" />
         </div>
         <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent relative z-10">
           Достижения
@@ -105,7 +105,7 @@ export default function Profile() {
 
       <Card className="border-2 border-pink-100 bg-white/80 backdrop-blur p-6 animate-fade-in relative">
         <div className="absolute top-4 right-4 w-14 h-14 opacity-25 animate-pulse">
-          <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+          <img src="https://i.pinimg.com/736x/98/e3/bf/98e3bf818cf6e5f5f5f8bbb7205d372a.jpg" alt="" className="w-full h-full object-contain" />
         </div>
         <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent relative z-10">
           Мои фото

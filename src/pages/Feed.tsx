@@ -20,30 +20,50 @@ const mockFeed: FeedPost[] = [
     author: 'Мия',
     avatar: '💕',
     time: '5 минут назад',
-    content: 'Новый образ! Как вам розовые чулочки? 🎀',
-    image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/429f2dfc-23b4-4444-af5c-70232c5d1d81.jpg',
-    likes: 234,
-    comments: 42,
+    content: 'Новый образ! Как вам чёрные колготки? 🎀',
+    image: 'https://cdn.poehali.dev/files/405a0aaa-d2f9-47d5-9f66-b9577ea028b0.jpg',
+    likes: 534,
+    comments: 82,
   },
   {
     id: 2,
     author: 'Юки',
     avatar: '🌸',
     time: '15 минут назад',
-    content: 'Сегодня чувствую себя особенно мило ✨',
-    image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c6d67403-414f-435b-a995-49e9308ec532.jpg',
+    content: 'Люблю чёрные чулочки, вы как? ✨',
+    image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/f6e92692-65bd-4031-8d7b-749a47faac2b.jpg',
     likes: 421,
     comments: 67,
   },
   {
     id: 3,
+    author: 'Рин',
+    avatar: '🎀',
+    time: '45 минут назад',
+    content: 'Белые гольфы — мой любимый выбор 💕',
+    image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/9c71bc08-a103-4e54-8f3a-32d132a9d1c9.jpg',
+    likes: 612,
+    comments: 94,
+  },
+  {
+    id: 4,
     author: 'Сакура',
     avatar: '✨',
     time: '1 час назад',
-    content: 'Всем привет! Рада присоединиться к сообществу 💖',
-    image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/bc5cabce-90e7-4953-978f-828b98b9a037.jpg',
-    likes: 189,
-    comments: 31,
+    content: 'Полосатые чулочки — классика! 🌸',
+    image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c39a619c-bc59-4aaa-aaf2-6bce9637cba1.jpg',
+    likes: 767,
+    comments: 103,
+  },
+  {
+    id: 5,
+    author: 'Айри',
+    avatar: '🦋',
+    time: '2 часа назад',
+    content: 'Элегантные чёрные с поясом ✨',
+    image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/fef39c6b-a80a-484d-8b86-2a26235c94f5.jpg',
+    likes: 878,
+    comments: 121,
   },
 ];
 
@@ -67,7 +87,7 @@ export default function Feed() {
     <div className="max-w-2xl mx-auto">
       <div className="mb-8 text-center relative">
         <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-20 h-20 opacity-30 animate-pulse">
-          <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+          <img src="https://i.pinimg.com/736x/98/e3/bf/98e3bf818cf6e5f5f5f8bbb7205d372a.jpg" alt="" className="w-full h-full object-contain" />
         </div>
         <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent mb-2 relative z-10">
           Лента новостей
@@ -79,7 +99,7 @@ export default function Feed() {
         {posts.map((post) => (
           <Card key={post.id} className="overflow-hidden border-2 border-pink-100 hover:border-purple-200 transition-all duration-300 hover:shadow-xl bg-white/80 backdrop-blur animate-fade-in relative">
             <div className="absolute top-2 right-2 w-12 h-12 opacity-20">
-              <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+              <img src="https://i.pinimg.com/736x/98/e3/bf/98e3bf818cf6e5f5f5f8bbb7205d372a.jpg" alt="" className="w-full h-full object-contain" />
             </div>
             <div className="p-6">
               <div className="flex items-center gap-3 mb-4">

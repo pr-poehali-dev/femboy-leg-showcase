@@ -14,12 +14,15 @@ interface Post {
 }
 
 const mockPosts: Post[] = [
-  { id: 1, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/429f2dfc-23b4-4444-af5c-70232c5d1d81.jpg', author: 'Мия', avatar: '💕', likes: 142, stars: 89, hearts: 234 },
-  { id: 2, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c6d67403-414f-435b-a995-49e9308ec532.jpg', author: 'Юки', avatar: '🌸', likes: 298, stars: 156, hearts: 421 },
-  { id: 3, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/bc5cabce-90e7-4953-978f-828b98b9a037.jpg', author: 'Рин', avatar: '🎀', likes: 187, stars: 92, hearts: 312 },
-  { id: 4, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/429f2dfc-23b4-4444-af5c-70232c5d1d81.jpg', author: 'Сакура', avatar: '✨', likes: 421, stars: 234, hearts: 567 },
-  { id: 5, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c6d67403-414f-435b-a995-49e9308ec532.jpg', author: 'Айри', avatar: '🦋', likes: 356, stars: 189, hearts: 478 },
-  { id: 6, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/bc5cabce-90e7-4953-978f-828b98b9a037.jpg', author: 'Нана', avatar: '🌺', likes: 267, stars: 145, hearts: 389 },
+  { id: 1, image: 'https://cdn.poehali.dev/files/405a0aaa-d2f9-47d5-9f66-b9577ea028b0.jpg', author: 'Мия', avatar: '💕', likes: 342, stars: 189, hearts: 534 },
+  { id: 2, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/f6e92692-65bd-4031-8d7b-749a47faac2b.jpg', author: 'Юки', avatar: '🌸', likes: 298, stars: 156, hearts: 421 },
+  { id: 3, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/9c71bc08-a103-4e54-8f3a-32d132a9d1c9.jpg', author: 'Рин', avatar: '🎀', likes: 487, stars: 292, hearts: 612 },
+  { id: 4, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c39a619c-bc59-4aaa-aaf2-6bce9637cba1.jpg', author: 'Сакура', avatar: '✨', likes: 521, stars: 334, hearts: 767 },
+  { id: 5, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/fef39c6b-a80a-484d-8b86-2a26235c94f5.jpg', author: 'Айри', avatar: '🦋', likes: 656, stars: 389, hearts: 878 },
+  { id: 6, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/429f2dfc-23b4-4444-af5c-70232c5d1d81.jpg', author: 'Нана', avatar: '🌺', likes: 267, stars: 145, hearts: 389 },
+  { id: 7, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/c6d67403-414f-435b-a995-49e9308ec532.jpg', author: 'Каору', avatar: '💝', likes: 423, stars: 267, hearts: 556 },
+  { id: 8, image: 'https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/bc5cabce-90e7-4953-978f-828b98b9a037.jpg', author: 'Хару', avatar: '🎨', likes: 378, stars: 221, hearts: 498 },
+  { id: 9, image: 'https://cdn.poehali.dev/files/405a0aaa-d2f9-47d5-9f66-b9577ea028b0.jpg', author: 'Рен', avatar: '🌟', likes: 445, stars: 298, hearts: 623 },
 ];
 
 export default function Gallery() {
@@ -55,7 +58,7 @@ export default function Gallery() {
     <div>
       <div className="mb-8 text-center relative">
         <div className="absolute -top-8 left-1/2 -translate-x-1/2 w-24 h-24 opacity-30 animate-bounce">
-          <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+          <img src="https://i.pinimg.com/736x/98/e3/bf/98e3bf818cf6e5f5f5f8bbb7205d372a.jpg" alt="" className="w-full h-full object-contain" />
         </div>
         <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent mb-2 relative z-10">
           Милая галерея
@@ -89,7 +92,7 @@ export default function Gallery() {
 
               <div className="flex items-center gap-4 relative">
                 <div className="absolute -right-2 -bottom-2 w-8 h-8 opacity-40">
-                  <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+                  <img src="https://i.pinimg.com/736x/98/e3/bf/98e3bf818cf6e5f5f5f8bbb7205d372a.jpg" alt="" className="w-full h-full object-contain" />
                 </div>
                 <button
                   onClick={() => handleReaction(post.id, 'like')}

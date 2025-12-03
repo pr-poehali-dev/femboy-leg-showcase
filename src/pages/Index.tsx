@@ -11,10 +11,10 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 relative overflow-hidden">
       {/* Floating mascot decorations */}
       <div className="fixed top-20 left-10 w-24 h-24 opacity-20 animate-bounce pointer-events-none z-0">
-        <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain" />
+        <img src="https://i.pinimg.com/736x/98/e3/bf/98e3bf818cf6e5f5f5f8bbb7205d372a.jpg" alt="" className="w-full h-full object-contain" />
       </div>
       <div className="fixed bottom-20 right-10 w-32 h-32 opacity-15 animate-pulse pointer-events-none z-0">
-        <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="" className="w-full h-full object-contain transform -scale-x-100" />
+        <img src="https://i.pinimg.com/736x/98/e3/bf/98e3bf818cf6e5f5f5f8bbb7205d372a.jpg" alt="" className="w-full h-full object-contain transform -scale-x-100" />
       </div>
 
       {/* Header */}
@@ -23,7 +23,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full bg-gradient-to-br from-pink-300 to-purple-300 flex items-center justify-center overflow-hidden p-1 shadow-lg">
-                <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="Mascot" className="w-full h-full object-contain" />
+                <img src="https://i.pinimg.com/736x/98/e3/bf/98e3bf818cf6e5f5f5f8bbb7205d372a.jpg" alt="Mascot" className="w-full h-full object-contain" />
               </div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
                 CuteGallery
@@ -85,7 +85,7 @@ const Index = () => {
       {/* Footer mascot */}
       <footer className="mt-20 py-8 text-center relative z-10">
         <div className="inline-flex items-center gap-3 px-6 py-3 bg-white/70 backdrop-blur rounded-full shadow-lg">
-          <img src="https://cdn.poehali.dev/projects/420e8a83-0677-4178-8e99-945548515c2e/files/763edf77-9471-4a8c-a93d-c2f9785dee76.jpg" alt="Mascot" className="w-8 h-8 object-contain" />
+          <img src="https://i.pinimg.com/736x/98/e3/bf/98e3bf818cf6e5f5f5f8bbb7205d372a.jpg" alt="Mascot" className="w-8 h-8 object-contain" />
           <span className="text-sm text-gray-600">Сделано с любовью 💕</span>
         </div>
       </footer>
